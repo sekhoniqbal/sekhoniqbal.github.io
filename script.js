@@ -1,4 +1,6 @@
-window.onclick = function(e){
+window.onclick =makeRipple;
+window.ontouchstart = makeRipple;
+ function makeRipple(e){
   console.log(e);
   posx = e.pageX;
   posy = e.pageY;
